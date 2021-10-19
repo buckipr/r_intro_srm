@@ -1,0 +1,118 @@
+---
+title: |
+ | Introduction to 
+ |
+ | 
+ | 
+ | Sociological Research Methods
+author: |
+ | Jason Thomas, IPR Research Scientist
+ | thomas.3912@osu.edu
+ | [https://www.asc.ohio-state.edu/thomas.3912/](https://www.asc.ohio-state.edu/thomas.3912/)
+date: "Oct. 19 & 21"
+header-includes:
+- \titlegraphic{\hspace{1.5in} \includegraphics[width=75px]{Rlogo.png}}
+output: beamer_presentation
+linkcolor: red
+urlcolor: blue
+citecolor: green
+latex_engine: xelatex
+theme: "metropolis"
+highlight: "espresso"
+classoption: "aspectratio=169"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Why R we here?!?
+
+* **R is a (computing) language and an interpreter that turns commands into...**
+    - data manipulation, statistical analysis, graphics, & programming 
+    - [R Studio IDE](https://www.rstudio.com/products/rstudio/download/#download) (Integrated Development Environment) 
+
+* **Large Community of Users**
+    - free software (in both senses)
+    - [**C**omprehensive **R** **A**rchive **Network** (CRAN)](https://cran.r-project.org/)
+    - Google / Stack overflow / Jason 
+    
+* **Make Your Research Accessible**
+    - [Dynamic Documents](https://rmarkdown.rstudio.com/lesson-1.html)
+    - [Shiny Apps](https://shiny.rstudio.com/gallery/)
+
+## Agenda
+
+* Tuesday
+    - basic setup & syntax
+    - finding help
+    - data types & structures
+    - working with data 
+
+* Thursday
+    - statistical analyses & exporting results
+    - plotting & data carpentry
+    - programming
+    - dynamic documents 
+
+* GitHub: [https://github.com/buckipr/r_intro_srm](https://github.com/buckipr/r_intro_srm)
+
+## Let's get started
+
+Work with a script for a while
+
+# Data Types & Structures
+
+
+## Data Types
+
+* A few types of data in R
+
+    + \texttt{logical} - \texttt{TRUE} or \texttt{FALSE}
+        - \texttt{NA} - missing data 
+
+    + \texttt{character}
+        - \texttt{NA\_character\_} - missing data 
+
+    + numeric - \texttt{integer}, \texttt{double}, \texttt{complex}
+        - \texttt{NA\_integer\_} & \texttt{NA\_real\_}
+
+    + \texttt{NULL} - empty object (place holder)
+
+## Data Structures
+
+* R has different structures for holding data, which can be 
+organized by...
+
+    + how many dimensions does it have?
+
+    + do the types of data need to be the same?
+  
+## Data Structures
+
+* **Vectors**
+  1. 1 dimension
+  1. same data type
+    + special case: **factor** (predefined categories) 
+
+* **Matrices**
+  1. rows and columns
+  1. same data type 
+
+* **Arrays** 
+  1. any number of dimensions
+  1. same data type 
+
+  
+## Data Structures
+
+* **Data Frames**
+  1. rows and columns
+  1. different data types 
+
+* **Lists**
+  1. 1 dimension
+  1. different data types (and structures)
+
+
+
